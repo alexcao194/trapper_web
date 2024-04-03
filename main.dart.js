@@ -36038,7 +36038,7 @@ Ct:function Ct(a,b){this.c=a
 this.a=b},
 Ls:function Ls(a,b){this.c=a
 this.a=b},
-b1O(){var s=A.be9("https://trapper-server.onrender.com",A.aR(["Content-Type","application/json","Accept","*/*","Connection","keep-alive","Access-Control-Allow-Origin","*"],t.N,t.z),new A.aoW()),r=new A.Xj($,new A.Zc(A.a([B.KO],t.i6)),$,new A.akG(A.bpW()),!1)
+b1O(){var s=A.be9("https://trapper-server.onrender.com",A.aR(["Content-Type","application/json"],t.N,t.z),new A.aoW()),r=new A.Xj($,new A.Zc(A.a([B.KO],t.i6)),$,new A.akG(A.bpW()),!1)
 r.a6h$=s
 r.a6j$=new A.als(A.A(t.Gf))
 return r},
