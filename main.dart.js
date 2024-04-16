@@ -36391,7 +36391,7 @@ this.d=b
 this.a=c},
 Mo:function Mo(a,b){this.c=a
 this.a=b},
-b3Z(){var s=A.bgs("http://localhost:1904",A.au(["Content-Type","application/json"],t.N,t.z),new A.aqa()),r=new A.Yn($,new A.a_f(A.a([B.KK],t.i6)),$,new A.alH(A.bsa()),!1)
+b3Z(){var s=A.bgs("https://trapper-server.onrender.com",A.au(["Content-Type","application/json"],t.N,t.z),new A.aqa()),r=new A.Yn($,new A.a_f(A.a([B.KK],t.i6)),$,new A.alH(A.bsa()),!1)
 r.a6L$=s
 r.a6N$=new A.amv(A.F(t.Gf))
 return r},
@@ -121417,7 +121417,7 @@ return A.R(p.a.T_("/profile/avatar",n,A.azi("multipart/form-data",null),t.z),$as
 case 5:m=d
 l=m.c
 k=m.a
-if(l===200)a=A.KM(a.aFu("http://localhost:1904/"+A.h(J.aZ(k,"photo_url"))))
+if(l===200)a=A.KM(a.aFu("https://trapper-server.onrender.com/"+A.h(J.aZ(k,"photo_url"))))
 else{l=m.b
 throw A.c(A.jv(null,A.oB(k,null),l,m,null,B.cb))}case 4:s=6
 return A.R(p.a.SZ("/profile",a.i7(),t.z),$async$mJ)
@@ -121482,7 +121482,7 @@ return new A.nB(s.h(a,"id"),s.h(a,"name"))},
 $S:653}
 A.aBg.prototype={
 $1(a){A.bU(a)
-this.a[A.it(B.b.gM(J.TE(B.b.ga0(a.split("/")),"-")),null)]="http://localhost:1904/"+a},
+this.a[A.it(B.b.gM(J.TE(B.b.ga0(a.split("/")),"-")),null)]="https://trapper-server.onrender.com/"+a},
 $S:4}
 A.aBd.prototype={
 $1(a){return A.aAB(a)},
@@ -121535,7 +121535,7 @@ i7(){var s=this
 return A.au(["full_name",s.a,"email",s.b,"photo_url",s.c,"gender",s.d,"date_of_birth",s.e,"_id",s.f,"bio",s.w,"photos",s.r],t.N,t.z)}}
 A.aAC.prototype={
 $1(a){A.bU(a)
-this.a[A.it(B.b.gM(J.TE(B.b.ga0(a.split("/")),"-")),null)]="http://localhost:1904/"+a},
+this.a[A.it(B.b.gM(J.TE(B.b.ga0(a.split("/")),"-")),null)]="https://trapper-server.onrender.com/"+a},
 $S:4}
 A.a3M.prototype={
 nS(a,b){var s,r,q,p,o,n="Not enough bytes available.",m=b.f,l=m+1
@@ -124148,7 +124148,7 @@ A.apx.prototype={
 $0(){return A.b3Z()},
 $S:761}
 A.apz.prototype={
-$0(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e="http://localhost:1904",d="query",c=$.b38
+$0(){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e="https://trapper-server.onrender.com",d="query",c=$.b38
 if(c==null){c=t.N
 s=t.z
 r=A.x(c,s)
@@ -124160,7 +124160,7 @@ o=q.gdV(q)
 n=$.aWC.aq(0,p)&&$.aWC.h(0,p).d.aq(0,o)
 m=J.d(r.h(0,"forceNew"),!0)||J.d(r.h(0,"force new connection"),!0)||!1===r.h(0,"multiplex")||n
 l=A.aY("io")
-if(m){$.beN().c_(B.w,"ignoring socket cache for http://localhost:1904",f,f)
+if(m){$.beN().c_(B.w,"ignoring socket cache for https://trapper-server.onrender.com",f,f)
 l.b=A.b5S(r,e)}else{k=$.aWC.h(0,p)
 if(k==null){k=A.b5S(r,e)
 $.aWC.n(0,p,k)}l.b=k}if(q.glO(q).length!==0&&r.h(0,d)==null)r.n(0,d,q.glO(q))
